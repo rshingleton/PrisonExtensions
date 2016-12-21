@@ -10,15 +10,11 @@ namespace PrisonExtensions
         {
             if (p.IsPrisoner || p.IsPrisonerOfColony)
             {
-                Log.Message("You're a prisoner, stop crying");
+                //Log.Message("You're a prisoner, stop crying");
                 return false;
             }
-            else
-            {
-                return p.ownership.OwnedBed != null && p.ownership.OwnedRoom == null &&
-                       !p.ownership.OwnedBed.GetRoom().PsychologicallyOutdoors;
-            }
-
+            return p.ownership.OwnedBed != null && p.ownership.OwnedRoom == null &&
+                   !p.ownership.OwnedBed.GetRoom().PsychologicallyOutdoors;
         }
     }
 }
