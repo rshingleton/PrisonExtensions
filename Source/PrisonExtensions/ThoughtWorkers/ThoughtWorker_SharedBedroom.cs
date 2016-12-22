@@ -1,8 +1,7 @@
-﻿using System;
+﻿using RimWorld;
 using Verse;
-using RimWorld;
 
-namespace PrisonExtensions
+namespace PrisonExtensions.ThoughtWorkers
 {
     public class ThoughtWorker_SharedBedroom : ThoughtWorker
     {
@@ -10,9 +9,16 @@ namespace PrisonExtensions
         {
             if (p.IsPrisoner || p.IsPrisonerOfColony)
             {
-                //Log.Message("You're a prisoner, stop crying");
+//                if (Prefs.DevMode)
+//                {
+//                    Log.Message("You're a prisoner, stop crying");
+//                }
                 return false;
             }
+//            if (Prefs.DevMode)
+//            {
+//                Log.Message("You've been hooked: " + Prefs.DevMode);
+//            }
             return p.ownership.OwnedBed != null && p.ownership.OwnedRoom == null &&
                    !p.ownership.OwnedBed.GetRoom().PsychologicallyOutdoors;
         }
