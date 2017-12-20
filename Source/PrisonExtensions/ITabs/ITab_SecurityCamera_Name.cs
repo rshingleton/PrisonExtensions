@@ -13,7 +13,8 @@ namespace PrisonExtensions.ITabs
         public ITab_SecurityCamera_Name()
         {
             this.size = WinSize;
-            this.labelKey = "slavers.SecurityCameraTab";
+            this.labelKey = "prison.SecurityCameraTab";
+            this.tutorTag = "Camera";
         }
 
         protected override void FillTab()
@@ -24,7 +25,7 @@ namespace PrisonExtensions.ITabs
             Rect innerRect1 = GenUI.GetInnerRect(new Rect(10.0f, 10.0f, this.size.x - 10, this.size.y - 10));
             GUI.BeginGroup(innerRect1);
 
-            Widgets.Label(new Rect(0, 5, this.size.x / 2, 30), "Prison name:");
+            Widgets.Label(new Rect(0, 5, this.size.x / 2, 30), "Area Name:");
             bpm.markerName = Widgets.TextField(new Rect(90, 0, this.size.x / 2, 30),
                 bpm.markerName.Substring(0, Math.Min(bpm.markerName.Length, 20)));
 

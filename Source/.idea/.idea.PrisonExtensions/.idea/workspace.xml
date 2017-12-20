@@ -2,29 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66b9947d-3007-4d5c-8649-afe8f6762f48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Defs/Designations/DesignationCategories.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Defs/ThingDefs/ThingDefs_Buildings/Buildings_Structure.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/Detours/Prisoner_NeedsTracker.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/Injectors/Pawn_NeedsTrackerHelper.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/JoyGivers/JobGiver_TakeDrugsForPrisonDrugPolicy.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/ThingComps/CompPrisoner.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_PrisonerJoy.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/Utilities/PrisonUtility.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_Warden_DeliverFood.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assemblies/PrisonExtensions.dll" afterPath="$PROJECT_DIR$/../Assemblies/PrisonExtensions.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.csproj.CopyComplete" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.csproj.CoreCompileInputs.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.csproj.CopyComplete" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.csproj.CoreCompileInputs.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/About/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Assemblies/PrisonExtensions.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/CellDoor_MenuIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/CellDoor_MenuIcon_alternate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/CellDoor_Mover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/CellDoor_Mover_alternate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/RazorWireFence.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/SecurityCamera_MenuIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/SecurityCamera_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/SecurityCamera_front.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Textures/Things/Buildings/SecurityCamera_side.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.PrisonExtensions/.idea/contentModel.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.PrisonExtensions/.idea/indexLayout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/Harmony/Prisoner_NeedsTrackerPatch.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrisonExtensions/Harmony/ThoughtWorker_PrisonerPatch.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/About/About.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/About/PublishedFileId.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Defs/Designations/DesignationCategories.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dist/PrisonExtensions/Defs/ThingDefs_Buildings/Buildings_Structure.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../About/About.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../About/PublishedFileId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../About/preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Assemblies/PrisonExtensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Defs/Designations/DesignationCategories.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Defs/ThingDefs/ThingDefs_Buildings/Buildings_Structure.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/Detouring/Detour.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/Detours/Prisoner_NeedsTracker.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/Injectors/DesignatorInjector.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/Injectors/DesignatorInjectorHelper.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/Injectors/Pawn_NeedsTrackerHelper.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_PrisonerJoy.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_SharedBedroom.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/Utilities/PrisonUtility.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_Warden_DeliverFood.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/CellDoor_MenuIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/CellDoor_MenuIcon_alternate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/CellDoor_Mover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/CellDoor_Mover_alternate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/RazorWireFence.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/SecurityCamera_MenuIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/SecurityCamera_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/SecurityCamera_front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Textures/Things/Buildings/SecurityCamera_side.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/bin/Debug/PrisonExtensions.dll" afterPath="$PROJECT_DIR$/PrisonExtensions/bin/Debug/PrisonExtensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/bin/Debug/PrisonExtensions.pdb" afterPath="$PROJECT_DIR$/PrisonExtensions/bin/Debug/PrisonExtensions.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.dll" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.pdb" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.dll" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../About/About.xml" afterPath="$PROJECT_DIR$/../About/About.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PrisonExtensions/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PrisonExtensions/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PrisonExtensions/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.PrisonExtensions/riderModule.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs" afterPath="$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs" afterPath="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs" afterPath="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs" afterPath="$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs" afterPath="$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/PrisonExtensions.csproj" afterPath="$PROJECT_DIR$/PrisonExtensions/PrisonExtensions.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/ThingComps/CompPrisoner.cs" afterPath="$PROJECT_DIR$/PrisonExtensions/ThingComps/CompPrisoner.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Debug/PrisonExtensions.csproj.FileListAbsolute.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/PrisonExtensions/obj/Release/PrisonExtensions.csproj.FileListAbsolute.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PrisonExtensions/JoyGivers/JobGiver_TakeDrugsForPrisonDrugPolicy.cs" afterPath="$PROJECT_DIR$/PrisonExtensions/Harmony/JobGiver_TakeDrugsForPrisonDrugPolicy.cs" />
     </list>
+    <ignored path=".vs/PrisonExtensions/v15/" />
+    <ignored path="PrisonExtensions/bin/Debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,27 +81,93 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bootstrapper.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bootstrapper.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
-                <marker date="1482529826161" expanded="true" signature="6:241" ph="..." />
-                <marker date="1482529826161" expanded="true" signature="269:3038" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="334:3036" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="449:914" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="646:904" ph="/* var designationCategory = DefDatabase&lt;DesignationCategoryDef&gt;.GetNamed(&quot;Structure&quot;, false); ... */" />
-                <marker date="1482529826161" expanded="true" signature="963:1282" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="1329:1826" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="1869:2152" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="2208:3030" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="2562:3020" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="2620:2721" ph="{...}" />
-                <marker date="1482529826161" expanded="true" signature="2782:3006" ph="{...}" />
+                <marker date="1513738557455" expanded="true" signature="7:28" ph="..." />
+                <marker date="1513738557455" expanded="true" signature="56:1109" ph="{...}" />
+                <marker date="1513738557455" expanded="true" signature="98:1107" ph="{...}" />
+                <marker date="1513738557455" expanded="true" signature="280:614" ph="{...}" />
+                <marker date="1513738557455" expanded="true" signature="346:604" ph="/* var designationCategory = DefDatabase&lt;DesignationCategoryDef&gt;.GetNamed(&quot;Structure&quot;, false); ... */" />
+                <marker date="1513738557455" expanded="true" signature="616:984" ph="/* private class DesignatorEntry { ... */" />
+                <marker date="1513738557455" expanded="true" signature="1047:1101" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ITab_SecurityCamera_Name.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <marker date="1513743223097" expanded="false" signature="6:95" ph="..." />
+                <marker date="1513743223097" expanded="true" signature="129:1124" ph="{...}" />
+                <marker date="1513743223097" expanded="true" signature="180:1122" ph="{...}" />
+                <marker date="1513743223097" expanded="true" signature="304:451" ph="{...}" />
+                <marker date="1513743223097" expanded="true" signature="494:1116" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../dist/PrisonExtensions/About/About.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buildings_Structure.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dist/PrisonExtensions/Defs/ThingDefs_Buildings/Buildings_Structure.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prisoner_NeedsTrackerPatch.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/Prisoner_NeedsTrackerPatch.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <marker date="1513737975040" expanded="false" signature="6:68" ph="..." />
+                <marker date="1513737975040" expanded="true" signature="104:1237" ph="{...}" />
+                <marker date="1513737975040" expanded="true" signature="159:1235" ph="{...}" />
+                <marker date="1513737975040" expanded="true" signature="174:257" ph="/// Added Joy and Comfort to prisoners ... " />
+                <marker date="1513737975040" expanded="true" signature="361:1229" ph="{...}" />
+                <marker date="1513737975040" expanded="true" signature="790:1219" ph="{...}" />
+                <marker date="1513737975040" expanded="true" signature="1069:1176" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaceWorker_SecurityCamera.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+              <folding>
+                <marker date="1513683103396" expanded="false" signature="6:47" ph="..." />
+                <marker date="1513683103396" expanded="true" signature="88:945" ph="{...}" />
+                <marker date="1513683103396" expanded="true" signature="148:943" ph="{...}" />
+                <marker date="1513683103396" expanded="true" signature="300:937" ph="{...}" />
+                <marker date="1513683103396" expanded="true" signature="421:543" ph="{...}" />
+                <marker date="1513683103396" expanded="true" signature="699:834" ph="{...}" />
+                <marker date="1513683103396" expanded="true" signature="851:927" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,10 +183,44 @@
       <find>FoodAvailableInRoomTo</find>
       <find>Log.Warning</find>
       <find>Log.Message</find>
+      <find>JoyCategory</find>
+      <find>DesignationCategoryDef</find>
+      <find>size</find>
+      <find>Pass</find>
+      <find>PlaceWorker</find>
+      <find>WorkGiver_Warden_DeliverFood</find>
+      <find>camer</find>
     </findStrings>
+    <replaceStrings>
+      <replace>designationCategoryDef</replace>
+      <replace>thingDef</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/b9/ad6ec36c/ThoughtWorker_SharedBed.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/ThingComps/CompPrisoner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/main/ThoughtWorkers/ThoughtWorker_Codependency.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/a5/94869413/ThoughtState.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/Pawn.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/ThoughtWorker_WantToSleepWithSpouseOrLover.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/ThoughtUtility.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/87/f8a22cac/Building.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/f8/aee6ad99/WorkGiver_Warden.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/f1/c4a22a83/PlaceWorker.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/main/PsychologyPawn.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/ThoughtWorker_PrisonerPatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/Prisoner_NeedsTrackerPatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/ThoughtWorker_Disfigured.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/JobGiver_TakeDrugsForPrisonDrugPolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,39 +235,55 @@
         <option value="$PROJECT_DIR$/PrisonExtensions/Detouring/Detour.cs" />
         <option value="$PROJECT_DIR$/../Defs/ThoughtDefs/Thoughts_Situation_Special.xml" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Detouring/ThoughtWorker_SharedBedroom.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_SharedBedroom.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs" />
         <option value="$PROJECT_DIR$/../Defs/ThingDefs/Prison_Extensions_Buildings.xml" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_RazorWireFence.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Designators/Designator_CellDoor.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs" />
         <option value="$PROJECT_DIR$/../Defs/ThingDefs/ThingDefs_Buildings/Buildings_Structure.xml" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Utilities/PrisonUtility.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_PrisonerJoy.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Detours/MapPawns.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Injectors/DesignatorInjector.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Injectors/DesignatorInjectorHelper.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_PrisonWarden.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/ThingComps/CompPrisoner.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_Pawn_Prisoner.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Injectors/Pawn_NeedsTrackerHelper.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/Detours/WardenFeedUtility.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_Warden_DeliverFood.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/Detours/Prisoner_NeedsTracker.cs" />
         <option value="$PROJECT_DIR$/../About/About.xml" />
         <option value="$PROJECT_DIR$/PrisonExtensions/JobGivers/JobGiver_TakeDrugsForPrisonDrugPolicy.cs" />
-        <option value="$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs" />
         <option value="$PROJECT_DIR$/PrisonExtensions/JoyGivers/JobGiver_TakeDrugsForPrisonDrugPolicy.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/ThingComps/CompPrisoner.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_Warden_DeliverFood.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_SharedBedroom.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_SharedBedroomPatch.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_PrisonerJoy.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Harmony/ThoughtWorker_SharedBedroomPatch.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/a5/94869413/ThoughtState.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Harmony/ThoughtWorker_PrisonerJoyPatch.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Harmony/ThoughtWorker_PrisonerPatch.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Detours/Prisoner_NeedsTracker.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Detours/Prisoner_NeedsTrackerPatch.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Harmony/Prisoner_NeedsTrackerPatch.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs" />
+        <option value="$PROJECT_DIR$/../dist/PrisonExtensions/Defs/Designations/DesignationCategories.xml" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/Harmony/PrisonerNeedsTrackerPatch.cs" />
+        <option value="$PROJECT_DIR$/../dist/PrisonExtensions/Defs/ThingDefs_Buildings/Buildings_Structure.xml" />
+        <option value="$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs" />
+        <option value="$PROJECT_DIR$/../dist/PrisonExtensions/About/About.xml" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-274" />
-    <option name="width" value="1066" />
-    <option name="height" value="1656" />
+    <option name="x" value="59" />
+    <option name="width" value="1390" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,229 +303,93 @@
     <panes>
       <pane id="SolutionExplorer">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkerGivers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utilities" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThoughtWorkers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThingComps" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Properties" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlaceWorkers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JoyGivers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITabs" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Injectors" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrisonExtensions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Detours" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Buildings" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Harmony" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ITabs" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PlaceWorkers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PrisonExtensions (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PrisonExtensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ThingComps" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Defs/Designations/DesignationCategories.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dist/PrisonExtensions/About" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
       <option name="PROJECT_PATH" value="" />
       <option name="PROJECT_KIND" value="None" />
@@ -376,21 +402,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="USE_MONO" value="0" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -415,11 +426,14 @@
       <workItem from="1482506045513" duration="3856000" />
       <workItem from="1482513416161" duration="4361000" />
       <workItem from="1482518566789" duration="9725000" />
+      <workItem from="1513681264849" duration="3900000" />
+      <workItem from="1513732950932" duration="51000" />
+      <workItem from="1513734395170" duration="9323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53667000" />
+    <option name="totallyTimeSpent" value="66941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,31 +445,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-274" width="1066" height="1656" extended-state="6" />
-    <editor active="true" />
+    <frame x="59" y="0" width="1390" height="1057" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5038095" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37394068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33464566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34095237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20013124" sideWeight="0.4961905" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26055312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19915254" sideWeight="0.4961905" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -467,148 +486,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1482529826161" expanded="true" signature="6:241" ph="..." />
-            <marker date="1482529826161" expanded="true" signature="269:3038" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="334:3036" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="449:914" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="646:904" ph="/* var designationCategory = DefDatabase&lt;DesignationCategoryDef&gt;.GetNamed(&quot;Structure&quot;, false); ... */" />
-            <marker date="1482529826161" expanded="true" signature="963:1282" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="1329:1826" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="1869:2152" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2208:3030" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2562:3020" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2620:2721" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2782:3006" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detouring/Detour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1482529826161" expanded="true" signature="6:241" ph="..." />
-            <marker date="1482529826161" expanded="true" signature="269:3038" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="334:3036" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="449:914" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="646:904" ph="/* var designationCategory = DefDatabase&lt;DesignationCategoryDef&gt;.GetNamed(&quot;Structure&quot;, false); ... */" />
-            <marker date="1482529826161" expanded="true" signature="963:1282" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="1329:1826" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="1869:2152" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2208:3030" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2562:3020" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2620:2721" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2782:3006" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detouring/Detour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_SharedBedroom.cs" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_SharedBedroom.cs" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/../../Defs/ThoughtDefs/Thoughts_Situation_Special.xml" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injection/Platform.cs" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injection/Logger.cs" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injection/HookInjector.cs" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injection/AsmHelper.cs" />
-    <entry file="file://$PROJECT_DIR$/../Defs/ThoughtDefs/Thoughts_Situation_Special.xml" />
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/B15818A9-92B3-4DF5-8435-52FD5C97CDB6/ee/d7e54431/ThoughtWorker_SharedBedroom.cs" />
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/63/fb4882e8/Building_Door.cs" />
-    <entry file="file://$PROJECT_DIR$/../Defs/ThingDefs/Prison_Extensions_Buildings.xml" />
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/Buildings/Building_RazorWireFence.cs" />
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/Designators/Designator_CellDoor.cs" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/e1/9d13fe51/Designator_Build.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detouring/Detour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Defs/ThingDefs/ThingDefs_Buildings/Buildings_Structure.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/62/5463976e/PlaceWorker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Utilities/PrisonUtility.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_SharedBedroom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/60/a88bff4a/Pawn_NeedsTracker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/e1/9d13fe51/Designator_Build.cs" />
+    <entry file="file://$PROJECT_DIR$/../Defs/ThingDefs/ThingDefs_Buildings/Buildings_Structure.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/62/5463976e/PlaceWorker.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/60/a88bff4a/Pawn_NeedsTracker.cs" />
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_PrisonWarden.cs" />
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_Pawn_Prisoner.cs" />
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injectors/DesignatorInjector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injectors/DesignatorInjectorHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -616,292 +501,369 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/3d/955666f2/WorkGiver_Warden.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detours/WardenFeedUtility.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_Warden_DeliverFood.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="119" column="80" lean-forward="false" selection-start-line="119" selection-start-column="80" selection-end-line="119" selection-end-column="80" />
-          <folding>
-            <marker date="1482522363275" expanded="true" signature="6:79" ph="..." />
-            <marker date="1482522363275" expanded="true" signature="120:8824" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="187:8822" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="252:3198" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="437:661" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="811:1070" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="882:1056" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="1118:1268" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="1425:1616" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="1673:1822" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="1871:2030" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="2309:2472" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="2617:2790" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="3263:7524" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="3465:3584" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="3760:3937" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="3791:3893" ph="/* This should never actually happen... ... */" />
-            <marker date="1482522363275" expanded="true" signature="4022:7347" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="4374:5337" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="4460:5269" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="4740:4857" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="5122:5239" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="5357:5512" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="5597:6171" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="6019:6153" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="6336:7333" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="7195:7315" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="7605:8816" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="7773:7893" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="8098:8781" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="8179:8419" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="8318:8401" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="8486:8767" ph="{...}" />
-            <marker date="1482522363275" expanded="true" signature="8666:8749" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1482522374176" expanded="true" signature="6:47" ph="..." />
-            <marker date="1482522374176" expanded="true" signature="88:943" ph="{...}" />
-            <marker date="1482522374176" expanded="true" signature="148:941" ph="{...}" />
-            <marker date="1482522374176" expanded="true" signature="298:935" ph="{...}" />
-            <marker date="1482522374176" expanded="true" signature="419:541" ph="{...}" />
-            <marker date="1482522374176" expanded="true" signature="697:832" ph="{...}" />
-            <marker date="1482522374176" expanded="true" signature="849:925" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detours/MapPawns.cs">
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/3d/955666f2/WorkGiver_Warden.cs" />
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detours/WardenFeedUtility.cs" />
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detours/MapPawns.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/fd/f5ef17fe/WorkGiver_Warden_DeliverFood.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/d5/90d8a8d8/WorkGiver_Scanner.cs" />
+    <entry file="file://$PROJECT_DIR$/../About/About.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/1d/fe0002ef/JoyGiver_TakeDrug.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/36/8c8747f5/JobGiver_GetJoy.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/6b/58505fda/Pawn.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/92/54ef2821/JoyGiver_Ingest.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/41/40493b4d/ThinkNode_JobGiver.cs" />
+    <entry file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/main/ThoughtWorkers/ThoughtWorker_Codependency.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/fd/f5ef17fe/WorkGiver_Warden_DeliverFood.cs">
+    <entry file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/main/PsychologyPawn.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/d5/90d8a8d8/WorkGiver_Scanner.cs">
+    <entry file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/Pawn.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="-41">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/ThoughtWorkers/ThoughtWorker_PrisonerJoy.cs">
+    <entry file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/ThoughtUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <marker date="1482506045532" expanded="true" signature="6:76" ph="..." />
-            <marker date="1482506045532" expanded="true" signature="119:1134" ph="{...}" />
-            <marker date="1482506045532" expanded="true" signature="180:1132" ph="{...}" />
-            <marker date="1482506045532" expanded="true" signature="255:1126" ph="{...}" />
-            <marker date="1482506045532" expanded="true" signature="302:376" ph="{...}" />
-            <marker date="1482506045532" expanded="true" signature="421:1116" ph="{...}" />
-          </folding>
+        <state relative-caret-position="-897">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/ThoughtWorker_Disfigured.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/b9/ad6ec36c/ThoughtWorker_SharedBed.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Psychology/Source/Psychology/Harmony/ThoughtWorker_WantToSleepWithSpouseOrLover.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="94" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/a5/94869413/ThoughtState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injectors/Pawn_NeedsTrackerHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="135">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <marker date="1482518573082" expanded="true" signature="6:87" ph="..." />
-            <marker date="1482518573082" expanded="true" signature="125:500" ph="{...}" />
-            <marker date="1482518573082" expanded="true" signature="175:498" ph="{...}" />
-            <marker date="1482518573082" expanded="true" signature="409:492" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detours/Prisoner_NeedsTracker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <marker date="1482522945880" expanded="true" signature="6:87" ph="..." />
-            <marker date="1482522945880" expanded="true" signature="123:1322" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="186:1320" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="241:1314" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="360:418" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="503:560" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="646:704" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="887:945" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="1062:1120" ph="{...}" />
-            <marker date="1482522945880" expanded="true" signature="1159:1235" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../About/About.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs">
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/ThoughtWorker_PrisonerJoyPatch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Detouring/Detour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Utilities/PrisonUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/87/f8a22cac/Building.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Injectors/DesignatorInjector.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1482477381269" expanded="true" signature="6:95" ph="..." />
-            <marker date="1482477381269" expanded="true" signature="129:1089" ph="{...}" />
-            <marker date="1482477381269" expanded="true" signature="180:1087" ph="{...}" />
-            <marker date="1482477381269" expanded="true" signature="304:414" ph="{...}" />
-            <marker date="1482477381269" expanded="true" signature="457:1081" ph="{...}" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dist/PrisonExtensions/Defs/Designations/DesignationCategories.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/f1/c4a22a83/PlaceWorker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/ThoughtWorker_PrisonerPatch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/ThingComps/CompPrisoner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="124" column="1" lean-forward="false" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="960">
+          <caret line="66" column="65" lean-forward="false" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
           <folding>
-            <marker date="1482518573014" expanded="true" signature="6:47" ph="..." />
-            <marker date="1482518573014" expanded="true" signature="86:9969" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="130:9967" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="586:667" ph="/* For wardens to release from prison (LawDef) ... */" />
-            <marker date="1482518573014" expanded="true" signature="748:1111" ph="Properties" />
-            <marker date="1482518573014" expanded="true" signature="806:1091" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="832:1081" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="1156:1236" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="1277:1353" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="1400:2312" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="2347:4145" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="2434:2486" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="2499:4135" ph="/* Check hand cuffs ... */" />
-            <marker date="1482518573014" expanded="true" signature="4213:4555" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="4224:4545" ph="/* pawn.apparel.Wear(apparel, true); ... */" />
-            <marker date="1482518573014" expanded="true" signature="4644:5134" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="4655:5124" ph="/* Try to unlock the apparel ... */" />
-            <marker date="1482518573014" expanded="true" signature="5203:5789" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="5214:5779" ph="/* if ( ... */" />
-            <marker date="1482518573014" expanded="true" signature="5890:6235" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="5983:6035" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="6111:6163" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="6310:7325" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="6321:7315" ph="/* foreach (var bodyPartGroup in restraints.def.apparel.bodyPartGroups) ... */" />
-            <marker date="1482518573014" expanded="true" signature="7392:8298" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="7403:8288" ph="/* if (originalFaction == null) ... */" />
-            <marker date="1482518573014" expanded="true" signature="8374:9393" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="8385:9383" ph="/* foreach (var bodyPartGroup in restraints.def.apparel.bodyPartGroups) ... */" />
-            <marker date="1482518573014" expanded="true" signature="9495:9961" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="9588:9640" ph="{...}" />
-            <marker date="1482518573014" expanded="true" signature="9841:9893" ph="{...}" />
+            <marker date="1513683159023" expanded="false" signature="6:47" ph="..." />
+            <marker date="1513683159023" expanded="true" signature="86:9918" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="130:9916" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="586:667" ph="/* For wardens to release from prison (LawDef) ... */" />
+            <marker date="1513683159023" expanded="true" signature="748:1111" ph="Properties" />
+            <marker date="1513683159023" expanded="true" signature="806:1091" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="832:1081" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="1156:1236" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="1277:1353" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="1400:2261" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="2296:4094" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="2383:2435" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="2448:4084" ph="/* Check hand cuffs ... */" />
+            <marker date="1513683159023" expanded="true" signature="4162:4504" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="4173:4494" ph="/* pawn.apparel.Wear(apparel, true); ... */" />
+            <marker date="1513683159023" expanded="true" signature="4593:5083" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="4604:5073" ph="/* Try to unlock the apparel ... */" />
+            <marker date="1513683159023" expanded="true" signature="5152:5738" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="5163:5728" ph="/* if ( ... */" />
+            <marker date="1513683159023" expanded="true" signature="5839:6184" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="5932:5984" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="6060:6112" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="6259:7274" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="6270:7264" ph="/* foreach (var bodyPartGroup in restraints.def.apparel.bodyPartGroups) ... */" />
+            <marker date="1513683159023" expanded="true" signature="7341:8247" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="7352:8237" ph="/* if (originalFaction == null) ... */" />
+            <marker date="1513683159023" expanded="true" signature="8323:9342" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="8334:9332" ph="/* foreach (var bodyPartGroup in restraints.def.apparel.bodyPartGroups) ... */" />
+            <marker date="1513683159023" expanded="true" signature="9444:9910" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="9537:9589" ph="{...}" />
+            <marker date="1513683159023" expanded="true" signature="9790:9842" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/1d/fe0002ef/JoyGiver_TakeDrug.cs">
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/JobGiver_TakeDrugsForPrisonDrugPolicy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/36/8c8747f5/JobGiver_GetJoy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/6b/58505fda/Pawn.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/92/54ef2821/JoyGiver_Ingest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrisonExtensions/JoyGivers/JobGiver_TakeDrugsForPrisonDrugPolicy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
-            <marker date="1482533823448" expanded="true" signature="6:92" ph="..." />
-            <marker date="1482533823448" expanded="true" signature="130:2157" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="195:2155" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="370:2149" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="440:555" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="877:1037" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="941:1023" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="1195:1373" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="1261:1359" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="1478:2114" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="1616:2100" ph="{...}" />
-            <marker date="1482533823448" expanded="true" signature="2000:2082" ph="{...}" />
+            <marker date="1513683089586" expanded="false" signature="6:92" ph="..." />
+            <marker date="1513683089586" expanded="true" signature="130:2146" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="195:2144" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="370:2138" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="440:555" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="866:1026" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="930:1012" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="1184:1362" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="1250:1348" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="1467:2103" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="1605:2089" ph="{...}" />
+            <marker date="1513683089586" expanded="true" signature="1989:2071" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/v08/DecompilerCache/decompiler/183391A6-AF1D-4F2C-9203-1A35309BDA00/41/40493b4d/ThinkNode_JobGiver.cs">
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Buildings/Building_Celldoor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <marker date="1513740366091" expanded="false" signature="6:66" ph="..." />
+            <marker date="1513740366091" expanded="true" signature="104:778" ph="{...}" />
+            <marker date="1513740366091" expanded="true" signature="222:776" ph="{...}" />
+            <marker date="1513740366091" expanded="true" signature="315:520" ph="{...}" />
+            <marker date="1513740366091" expanded="true" signature="427:484" ph="{...}" />
+            <marker date="1513740366091" expanded="true" signature="552:599" ph="{...}" />
+            <marker date="1513740366091" expanded="true" signature="631:683" ph="{...}" />
+            <marker date="1513740366091" expanded="true" signature="717:770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Buildings/Building_SecurityCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <marker date="1513683004981" expanded="true" signature="6:137" ph="..." />
+            <marker date="1513683004981" expanded="true" signature="175:2314" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="229:2312" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="474:596" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="637:1262" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="808:892" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="932:1151" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="1037:1137" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="1185:1252" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="1302:1399" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="1458:1993" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="1693:1763" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="2040:2306" ph="{...}" />
+            <marker date="1513683004981" expanded="true" signature="2179:2296" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PrisonExtensions/Bootstrapper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
-            <marker date="1482529826161" expanded="true" signature="6:241" ph="..." />
-            <marker date="1482529826161" expanded="true" signature="269:3038" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="334:3036" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="449:914" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="646:904" ph="/* var designationCategory = DefDatabase&lt;DesignationCategoryDef&gt;.GetNamed(&quot;Structure&quot;, false); ... */" />
-            <marker date="1482529826161" expanded="true" signature="963:1282" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="1329:1826" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="1869:2152" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2208:3030" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2562:3020" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2620:2721" ph="{...}" />
-            <marker date="1482529826161" expanded="true" signature="2782:3006" ph="{...}" />
+            <marker date="1513738557455" expanded="true" signature="7:28" ph="..." />
+            <marker date="1513738557455" expanded="true" signature="56:1109" ph="{...}" />
+            <marker date="1513738557455" expanded="true" signature="98:1107" ph="{...}" />
+            <marker date="1513738557455" expanded="true" signature="280:614" ph="{...}" />
+            <marker date="1513738557455" expanded="true" signature="346:604" ph="/* var designationCategory = DefDatabase&lt;DesignationCategoryDef&gt;.GetNamed(&quot;Structure&quot;, false); ... */" />
+            <marker date="1513738557455" expanded="true" signature="616:984" ph="/* private class DesignatorEntry { ... */" />
+            <marker date="1513738557455" expanded="true" signature="1047:1101" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/f8/aee6ad99/WorkGiver_Warden.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1513741406716" expanded="true" signature="0:314" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1513741406716" expanded="false" signature="322:366" ph="..." />
+            <marker date="1513741406716" expanded="true" signature="386:1235" ph="{...}" />
+            <marker date="1513741406716" expanded="true" signature="449:1233" ph="{...}" />
+            <marker date="1513741406716" expanded="true" signature="512:612" ph="{...}" />
+            <marker date="1513741406716" expanded="true" signature="528:606" ph="{...}" />
+            <marker date="1513741406716" expanded="true" signature="657:730" ph="{...}" />
+            <marker date="1513741406716" expanded="true" signature="673:724" ph="{...}" />
+            <marker date="1513741406716" expanded="true" signature="804:1229" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/WorkerGivers/WorkGiver_Warden_DeliverFood.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/PrisonerNeedsTrackerPatch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="98" lean-forward="false" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Harmony/Prisoner_NeedsTrackerPatch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <marker date="1513737975040" expanded="false" signature="6:68" ph="..." />
+            <marker date="1513737975040" expanded="true" signature="104:1237" ph="{...}" />
+            <marker date="1513737975040" expanded="true" signature="159:1235" ph="{...}" />
+            <marker date="1513737975040" expanded="true" signature="174:257" ph="/// Added Joy and Comfort to prisoners ... " />
+            <marker date="1513737975040" expanded="true" signature="361:1229" ph="{...}" />
+            <marker date="1513737975040" expanded="true" signature="790:1219" ph="{...}" />
+            <marker date="1513737975040" expanded="true" signature="1069:1176" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dist/PrisonExtensions/Defs/ThingDefs_Buildings/Buildings_Structure.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/PlaceWorkers/PlaceWorker_SecurityCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <marker date="1513683103396" expanded="false" signature="6:47" ph="..." />
+            <marker date="1513683103396" expanded="true" signature="88:945" ph="{...}" />
+            <marker date="1513683103396" expanded="true" signature="148:943" ph="{...}" />
+            <marker date="1513683103396" expanded="true" signature="300:937" ph="{...}" />
+            <marker date="1513683103396" expanded="true" signature="421:543" ph="{...}" />
+            <marker date="1513683103396" expanded="true" signature="699:834" ph="{...}" />
+            <marker date="1513683103396" expanded="true" signature="851:927" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/ITabs/ITab_SecurityCamera_Name.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <marker date="1513743223097" expanded="false" signature="6:95" ph="..." />
+            <marker date="1513743223097" expanded="true" signature="129:1124" ph="{...}" />
+            <marker date="1513743223097" expanded="true" signature="180:1122" ph="{...}" />
+            <marker date="1513743223097" expanded="true" signature="304:451" ph="{...}" />
+            <marker date="1513743223097" expanded="true" signature="494:1116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrisonExtensions/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513680980964" expanded="false" signature="6:101" ph="..." />
+            <marker date="1513680980964" expanded="true" signature="103:290" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1513680980964" expanded="true" signature="610:820" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1513680980964" expanded="true" signature="997:1324" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dist/PrisonExtensions/About/About.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

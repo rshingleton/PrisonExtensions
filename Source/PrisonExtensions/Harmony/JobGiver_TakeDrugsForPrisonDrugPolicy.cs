@@ -19,7 +19,7 @@ namespace PrisonExtensions.JoyGivers
             }
             Predicate<Thing> predicate = (Thing t) => this.CanIngestForJoy(pawn, t) &&
                                                       (extraValidator == null || extraValidator(t));
-            ThingContainer innerContainer = pawn.inventory.innerContainer;
+            var innerContainer = pawn.inventory.innerContainer;
             for (int i = 0; i < innerContainer.Count; i++)
             {
                 if (predicate(innerContainer[i]))

@@ -18,7 +18,7 @@ namespace PrisonExtensions.Buildings
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.LookValue<String>(ref this.markerName, "markerName", "");
+            Scribe_Values.Look(ref this.markerName, "markerName", "");
         }
 
         public override void TickRare()
@@ -49,7 +49,7 @@ namespace PrisonExtensions.Buildings
 
         public override void DeSpawn()
         {
-            this.GetRoom().RoomChanged();
+            this.GetRoom().Notify_RoofChanged();
             base.DeSpawn();
         }
 

@@ -12,10 +12,11 @@ namespace PrisonExtensions.Buildings
 
         public override bool PawnCanOpen(Pawn p)
         {
-            Lord lord = p.GetLord();
-            if (lord != null && lord.LordJob != null && lord.LordJob.CanOpenAnyDoor(p) || this.Faction == null)
+            if (p.IsColonist || p.IsColonistPlayerControlled || p.IsPrisoner || p.IsPrisonerOfColony)
+            {
                 return true;
-            return (GenAI.MachinesLike(this.Faction, p) || p.IsPrisonerOfColony); //also opens for prisoners
+            }
+            return false;
         }
 
         public bool isLocked()

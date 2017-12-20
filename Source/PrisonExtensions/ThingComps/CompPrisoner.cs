@@ -56,17 +56,17 @@ namespace PrisonExtensions.ThingComps
         public override void PostExposeData()
         {
             base.PostExposeData();
-            Scribe_Values.LookValue(ref ShouldBeCuffed, "ShouldBeCuffed", false, false);
-            Scribe_Values.LookValue(ref ShouldBeShackled, "ShouldBeShackled", false, false);
-            Scribe_Values.LookValue(ref freeSlave, "freeSlave", false, false);
-            Scribe_Values.LookValue(ref wasSlave, "wasSlave", false, false);
-            Scribe_Values.LookValue(ref wasArrested, "wasArrested", false, false);
-            Scribe_Values.LookValue(ref releaseAfterTick, "releaseAfterTick", 0, false);
+            Scribe_Values.Look(ref ShouldBeCuffed, "ShouldBeCuffed", false, false);
+            Scribe_Values.Look(ref ShouldBeShackled, "ShouldBeShackled", false, false);
+            Scribe_Values.Look(ref freeSlave, "freeSlave", false, false);
+            Scribe_Values.Look(ref wasSlave, "wasSlave", false, false);
+            Scribe_Values.Look(ref wasArrested, "wasArrested", false, false);
+            Scribe_Values.Look(ref releaseAfterTick, "releaseAfterTick", 0, false);
 
             // Scribe references and lists last
-            Scribe_References.LookReference(ref haulTarget, "haulTarget");
-            Scribe_References.LookReference(ref originalFaction, "originalFaction");
-            Scribe_Defs.LookDef(ref originalPawnKind, "originalPawnKind");
+            Scribe_References.Look(ref haulTarget, "haulTarget");
+            Scribe_References.Look(ref originalFaction, "originalFaction");
+            Scribe_Defs.Look(ref originalPawnKind, "originalPawnKind");
 //            Scribe_Defs.LookDef(ref lawBroken, "lawBroken");
         }
 

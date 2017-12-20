@@ -7,7 +7,7 @@ namespace PrisonExtensions.PlaceWorkers
     public class PlaceWorker_SecurityCamera : PlaceWorker
     {
         public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot,
-            Thing thingToIgnore = null)
+            Map map, Thing thingToIgnore)
         {
             var r = GridsUtility.GetRoom(loc, Find.VisibleMap);
             if (r == null || r.TouchesMapEdge)

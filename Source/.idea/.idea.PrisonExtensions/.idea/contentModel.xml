@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\reshi\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_PrisonExtensions.-1434736645.00" t="ExcludeRecursive" />
+    <e p="D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\dist\PrisonExtensions\About" t="Include">
+      <e p="About.xml" t="Include" />
+      <e p="preview.png" t="Include" />
+      <e p="PublishedFileId.txt" t="Include" />
+    </e>
+    <e p="D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\dist\PrisonExtensions\Assemblies" t="ExcludeRecursive" />
+    <e p="D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\dist\PrisonExtensions\Defs\Designations" t="Include">
+      <e p="DesignationCategories.xml" t="Include" />
+    </e>
+    <e p="D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\dist\PrisonExtensions\Defs\ThingDefs_Buildings" t="Include">
+      <e p="Buildings_Structure.xml" t="Include" />
+    </e>
+    <e p="D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Source" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PrisonExtensions" t="IncludeRecursive">
+        <e p="Bootstrapper.cs" t="Include" />
+        <e p="Buildings" t="Include">
+          <e p="Building_Celldoor.cs" t="Include" />
+          <e p="Building_SecurityCamera.cs" t="Include" />
+        </e>
+        <e p="Harmony" t="Include">
+          <e p="JobGiver_TakeDrugsForPrisonDrugPolicy.cs" t="Include" />
+          <e p="Prisoner_NeedsTrackerPatch.cs" t="Include" />
+          <e p="ThoughtWorker_PrisonerPatch.cs" t="Include" />
+        </e>
+        <e p="ITabs" t="Include">
+          <e p="ITab_SecurityCamera_Name.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PlaceWorkers" t="Include">
+          <e p="PlaceWorker_SecurityCamera.cs" t="Include" />
+        </e>
+        <e p="PrisonExtensions.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ThingComps" t="Include">
+          <e p="CompPrisoner.cs" t="Include" />
+        </e>
+      </e>
+      <e p="PrisonExtensions.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

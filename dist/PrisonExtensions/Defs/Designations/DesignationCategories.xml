@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <DesignationCategoryDef>
-    <DefName>Prison</DefName>
+  <designationCategoryDef>
+    <defName>Prison</defName>
     <label>prison</label>
     <description>Structural constructions for prisons.</description>
     <order>750</order>
@@ -10,6 +10,6 @@
       <li>Designator_Cancel</li>
       <li>Designator_Deconstruct</li>
     </specialDesignatorClasses>
-  </DesignationCategoryDef>
+  </designationCategoryDef>
   
 </Defs>

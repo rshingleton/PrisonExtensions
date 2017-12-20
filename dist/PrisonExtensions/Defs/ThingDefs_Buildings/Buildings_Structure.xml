@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
-    <ThingDef Name="BuildingBase" Abstract="True">
+    <thingDef Name="BuildingBase" Abstract="True">
         <category>Building</category>
         <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
         <selectable>true</selectable>
         <drawerType>MapMeshAndRealTime</drawerType>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <repairEffect>Repair</repairEffect>
-    </ThingDef>
+    </thingDef>
 
     <!--========================= Doors =============================-->
 
-    <ThingDef ParentName="DoorBase">
+    <thingDef ParentName="DoorBase">
         <defName>CellDoor</defName>
         <label>cell door</label>
         <thingClass>PrisonExtensions.Buildings.Building_CellDoor</thingClass>
@@ -33,16 +33,16 @@
         <uiIconPath>Things/Buildings/CellDoor_MenuIcon</uiIconPath>
         <costStuffCount>25</costStuffCount>
         <!--<designationHotKey>Misc1</designationHotKey>-->
-    </ThingDef>
+    </thingDef>
 
     <!--========================= Walls =============================-->
 
 
     <!--========================= Misc =============================-->
 
-    <ThingDef ParentName="BuildingBase">
+    <thingDef ParentName="BuildingBase">
         <defName>SecurityCamera</defName>
-        <label>security camera</label>
+        <label>Security Camera</label>
         <description>Designates a room as a prison.</description>
         <thingClass>PrisonExtensions.Buildings.Building_SecurityCamera</thingClass>
         <graphicData>
@@ -56,10 +56,10 @@
             <Flammability>0.4</Flammability>
             <Beauty>-5</Beauty>
         </statBases>
-        <Size>(1,1)</Size>
+        <size>(1,1)</size>
         <rotatable>true</rotatable>
-        <DesignationCategory>Prison</DesignationCategory>
-        <Passability>Standable</Passability>
+        <designationCategory>Prison</designationCategory>
+        <passability>Standable</passability>
         <tickerType>Rare</tickerType>
         <placeWorkers>
             <li>PrisonExtensions.PlaceWorkers.PlaceWorker_SecurityCamera</li>
@@ -67,11 +67,11 @@
         <inspectorTabs>
             <li>PrisonExtensions.Itabs.ITab_SecurityCamera_Name</li>
         </inspectorTabs>
-        <DrawGUIOverlay>True</DrawGUIOverlay>
+        <drawGUIOverlay>True</drawGUIOverlay>
         <researchPrerequisites>
             <li>Electricity</li>
         </researchPrerequisites>
-    </ThingDef>
+    </thingDef>
 
 
-</Buildings>
+</Defs>

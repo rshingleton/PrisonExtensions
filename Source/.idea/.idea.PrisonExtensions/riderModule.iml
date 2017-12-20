@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../../../About/About.xml">
-      <sourceFolder url="file://$MODULE_DIR$/../../../About/About.xml" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../Defs/Designations/DesignationCategories.xml">
-      <sourceFolder url="file://$MODULE_DIR$/../../../Defs/Designations/DesignationCategories.xml" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../Defs/ThingDefs/ThingDefs_Buildings/Buildings_Structure.xml">
-      <sourceFolder url="file://$MODULE_DIR$/../../../Defs/ThingDefs/ThingDefs_Buildings/Buildings_Structure.xml" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../..">
-      <sourceFolder url="file://$MODULE_DIR$/../../PrisonExtensions" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/../../PrisonExtensions/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
-    </content>
+    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../dist/PrisonExtensions/About" />
+    <content url="file://$MODULE_DIR$/../../../dist/PrisonExtensions/Defs/Designations" />
+    <content url="file://$MODULE_DIR$/../../../dist/PrisonExtensions/Defs/ThingDefs_Buildings" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

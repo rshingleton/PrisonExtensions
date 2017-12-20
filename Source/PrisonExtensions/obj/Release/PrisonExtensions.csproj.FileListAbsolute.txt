@@ -5,3 +5,7 @@ C:\Users\shingler\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Assemblies\PrisonE
 C:\Users\reshi\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Assemblies\PrisonExtensions.dll
 C:\Users\reshi\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Source\PrisonExtensions\obj\Release\PrisonExtensions.csprojResolveAssemblyReference.cache
 C:\Users\reshi\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Source\PrisonExtensions\obj\Release\PrisonExtensions.dll
+D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\dist\PrisonExtensions\Assemblies\PrisonExtensions.dll
+D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Source\PrisonExtensions\obj\Release\PrisonExtensions.csprojResolveAssemblyReference.cache
+D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Source\PrisonExtensions\obj\Release\PrisonExtensions.csproj.CoreCompileInputs.cache
+D:\Dropbox\Rimworld Mods\Mods\PrisonExtensions\Source\PrisonExtensions\obj\Release\PrisonExtensions.dll
